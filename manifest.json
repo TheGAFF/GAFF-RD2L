@@ -1,0 +1,22 @@
+{
+	"name": "RD2L",
+	"namespace": "GAFF",
+	"version_number": "1.0.0",
+	"description": "Low effort RD2L character mod. Forked from patamods mod.",
+	"website_url": "https://github.com/TheGAFF/GAFF-RD2L",
+	"dependencies": [
+		"Darkly77-ContentLoader"
+	],
+	"extra": {
+		"godot": {
+			"incompatibilities": [
+			],
+			"authors": [
+				"GAFF"
+			],
+			"compatible_mod_loader_version": ["6.0.0"],
+			"compatible_game_version": ["1.0.0.3"],
+			"config_defaults": {}
+		}
+	}
+}

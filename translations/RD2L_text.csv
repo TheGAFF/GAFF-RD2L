@@ -1,0 +1,19 @@
+keys,en
+CHARACTER_FATSLOTH,Fatsloth
+CHARACTER_YERBAD,Yerbad
+CHARACTER_JBAY7,JBay7
+CHARACTER_VVODLE,vvodle
+CHARACTER_ZAMO,Zamo
+CHARACTER_TREEBEARD,Treebeard
+GMO_COMBINES CHARACTER_FATSLOTH,Starts with Fatsloth
+GMO_COMBINES CHARACTER_YERBAD,Starts with Yerbad
+GMO_COMBINES CHARACTER_JBAY7,Starts with JBay7
+GMO_COMBINES CHARACTER_VVODLE,Starts with vvodle
+GMO_COMBINES CHARACTER_ZAMO,Starts with Zamo
+GMO_COMBINES CHARACTER_TREEBEARD,Starts with Treebeard
+EFFECT_RECYCLING_LOSSES,Gain [color=red]99%[/color] less materials from recyling items
+EFFECT_JBAY7_NULLIFIED,[color=#00ff00]5[/color] hits taken are nullified every wave
+EFFECT_VVODLE_NULLIFIED,[color=#00ff00]8[/color] hits taken are nullified every wave
+EFFECT_TWO_WEAPON_SLOT_LIMIT,You can only equip two weapons at a time
+EFFECT_NO_HARVESTING_GROWTH,{0}% Harvesting growth between waves
+EFFECT_CAP_MAP_SIZE,Map Size stops increasing at Wave 20

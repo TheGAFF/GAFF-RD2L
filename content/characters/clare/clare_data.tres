@@ -1,0 +1,25 @@
+[gd_resource type="Resource" load_steps=19 format=2]
+
+[ext_resource path="res://items/characters/character_data.gd" type="Script" id=1]
+[ext_resource path="res://mods-unpacked/GAFF-RD2L/content/characters/clare/clare_effect_5.tres" type="Resource" id=5]
+[ext_resource path="res://mods-unpacked/GAFF-RD2L/content/characters/clare/rd2l_clare_icon.png" type="Texture" id=10]
+[ext_resource path="res://mods-unpacked/GAFF-RD2L/content/characters/clare/clare_hair_appearance.tres" type="Resource" id=12]
+[ext_resource path="res://mods-unpacked/GAFF-RD2L/content/characters/clare/clare_eyes_appearance.tres" type="Resource" id=16]
+[ext_resource path="res://weapons/melee/excalibur/4/excalibur_4_data.tres" type="Resource" id=19]
+[ext_resource path="res://mods-unpacked/GAFF-RD2L/content/characters/clare/clare_effect_3.tres" type="Resource" id=20]
+[ext_resource path="res://mods-unpacked/GAFF-RD2L/content/characters/clare/clare_effect_0b.tres" type="Resource" id=21]
+[resource]
+script = ExtResource( 1 )
+my_id = "character_clare"
+unlocked_by_default = true
+icon = ExtResource( 10 )
+name = "CHARACTER_CLARE"
+tier = 0
+value = 1
+effects = [ ExtResource( 20 ), ExtResource( 5 ), ExtResource( 21 ) ]
+tracking_text = ""
+max_nb = -1
+item_appearances = [ ExtResource( 16 ), ExtResource( 12 ) ]
+tags = [  ]
+wanted_tags = [ "stat_range" ]
+starting_weapons = [ ExtResource( 19 ) ]

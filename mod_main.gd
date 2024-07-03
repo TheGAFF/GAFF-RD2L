@@ -15,8 +15,7 @@ func _init(_modLoader = ModLoader):
 
 	# Add extensions
 	var extensions = [
-		"/singletons/run_data.gd", # Initialise custom tracking data and stats
-		"/main.gd"
+		"/entities/units/player/player.gd"
 	]
 	for path in extensions:
 		ModLoaderMod.install_script_extension(ext_dir + path)

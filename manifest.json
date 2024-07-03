@@ -1,7 +1,7 @@
 {
 	"name": "RD2L",
 	"namespace": "GAFF",
-	"version_number": "1.0.0",
+	"version_number": "1.1.0",
 	"description": "Low effort RD2L character mod. Forked from patamods mod.",
 	"website_url": "https://github.com/TheGAFF/GAFF-RD2L",
 	"dependencies": [

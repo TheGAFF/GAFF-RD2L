@@ -5,15 +5,28 @@ CHARACTER_JBAY7,JBay7
 CHARACTER_VVODLE,vvodle
 CHARACTER_ZAMO,Zamo
 CHARACTER_TREEBEARD,Treebeard
+CHARACTER_THEPASSIVEFARMER,The Passive Farmer
+CHARACTER_CLARE,Clare
+CHARACTER_RD2LGHOST,♀Ghost♀
+CHARACTER_TARGET,Target
+CHARACTER_USDANNY,USDanny
 GMO_COMBINES CHARACTER_FATSLOTH,Starts with Fatsloth
 GMO_COMBINES CHARACTER_YERBAD,Starts with Yerbad
 GMO_COMBINES CHARACTER_JBAY7,Starts with JBay7
 GMO_COMBINES CHARACTER_VVODLE,Starts with vvodle
 GMO_COMBINES CHARACTER_ZAMO,Starts with Zamo
 GMO_COMBINES CHARACTER_TREEBEARD,Starts with Treebeard
-EFFECT_RECYCLING_LOSSES,Gain [color=red]99%[/color] less materials from recyling items
+GMO_COMBINES CHARACTER_THEPASSIVEFARMER,Starts with The Passive Farmer
+GMO_COMBINES CHARACTER_CLARE,Starts with Clare
+GMO_COMBINES CHARACTER_RD2LGHOST,Starts with ♀Ghost♀
+GMO_COMBINES CHARACTER_TARGET,Starts with Target
+GMO_COMBINES CHARACTER_USDANNY,Starts with USDanny
+EFFECT_RECYCLING_LOSSES,Gain [color=red]99%[/color] less materials from recycling items
 EFFECT_JBAY7_NULLIFIED,[color=#00ff00]5[/color] hits taken are nullified every wave
 EFFECT_VVODLE_NULLIFIED,[color=#00ff00]8[/color] hits taken are nullified every wave
 EFFECT_TWO_WEAPON_SLOT_LIMIT,You can only equip two weapons at a time
 EFFECT_NO_HARVESTING_GROWTH,{0}% Harvesting growth between waves
 EFFECT_CAP_MAP_SIZE,Map Size stops increasing at Wave 20
+EFFECT_HARVEST_WHILE_NOT_MOVING, +{0} Harvest per second while standing still
+EFFECT_HARVEST_WHILE_MOVING, {0} Harvest per second while moving
+EFFECT_GUARANTEED_WEIRD_GHOST, Shops always sell a {1}.

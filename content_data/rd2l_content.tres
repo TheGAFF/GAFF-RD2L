@@ -6,10 +6,14 @@
 [ext_resource path="res://mods-unpacked/GAFF-RD2L/content/characters/zamo/zamo_data.tres" type="Resource" id=5]
 [ext_resource path="res://mods-unpacked/GAFF-RD2L/content/characters/jbay7/jbay7_data.tres" type="Resource" id=6]
 [ext_resource path="res://mods-unpacked/GAFF-RD2L/content/characters/treebeard/treebeard_data.tres" type="Resource" id=7]
-
+[ext_resource path="res://mods-unpacked/GAFF-RD2L/content/characters/thepassivefarmer/thepassivefarmer_data.tres" type="Resource" id=8]
+[ext_resource path="res://mods-unpacked/GAFF-RD2L/content/characters/clare/clare_data.tres" type="Resource" id=9]
+[ext_resource path="res://mods-unpacked/GAFF-RD2L/content/characters/ghost/ghost_data.tres" type="Resource" id=10]
+[ext_resource path="res://mods-unpacked/GAFF-RD2L/content/characters/target/target_data.tres" type="Resource" id=11]
+[ext_resource path="res://mods-unpacked/GAFF-RD2L/content/characters/usdanny/usdanny_data.tres" type="Resource" id=12]
 [resource]
 script = ExtResource( 1 )
-characters = [ ExtResource( 2 ), ExtResource( 3 ), ExtResource( 4 ), ExtResource( 5 ), ExtResource( 6 ), ExtResource( 7 ) ]
+characters = [ ExtResource( 2 ), ExtResource( 3 ), ExtResource( 4 ), ExtResource( 5 ), ExtResource( 6 ), ExtResource( 7 ), ExtResource( 8 ), ExtResource( 9 ), ExtResource( 10 ), ExtResource( 11 ), ExtResource( 12 )  ]
 items = []
 weapons = [  ]
 weapons_characters = [ ]

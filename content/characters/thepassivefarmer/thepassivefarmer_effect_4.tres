@@ -1,0 +1,14 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://effects/items/stat_with_max_effect.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+key = "stat_harvesting"
+text_key = "EFFECT_HARVEST_WHILE_MOVING"
+value = -10
+custom_key = "temp_stats_while_moving"
+storage_method = 0
+effect_sign = 1
+custom_args = [  ]
+max_value = 1000

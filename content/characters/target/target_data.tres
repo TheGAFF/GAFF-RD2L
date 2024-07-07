@@ -24,7 +24,7 @@
 
 [resource]
 script = ExtResource( 1 )
-my_id = "character_target"
+my_id = "character_rd2l_target"
 unlocked_by_default = true
 icon = ExtResource( 2 )
 name = "CHARACTER_TARGET"

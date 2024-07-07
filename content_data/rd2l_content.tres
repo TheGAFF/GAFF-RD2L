@@ -11,9 +11,14 @@
 [ext_resource path="res://mods-unpacked/GAFF-RD2L/content/characters/ghost/ghost_data.tres" type="Resource" id=10]
 [ext_resource path="res://mods-unpacked/GAFF-RD2L/content/characters/target/target_data.tres" type="Resource" id=11]
 [ext_resource path="res://mods-unpacked/GAFF-RD2L/content/characters/usdanny/usdanny_data.tres" type="Resource" id=12]
+[ext_resource path="res://mods-unpacked/GAFF-RD2L/content/characters/yungbuck/yungbuck_data.tres" type="Resource" id=13]
+[ext_resource path="res://mods-unpacked/GAFF-RD2L/content/characters/infinity/infinity_data.tres" type="Resource" id=14]
 [resource]
 script = ExtResource( 1 )
-characters = [ ExtResource( 2 ), ExtResource( 3 ), ExtResource( 4 ), ExtResource( 5 ), ExtResource( 6 ), ExtResource( 7 ), ExtResource( 8 ), ExtResource( 9 ), ExtResource( 10 ), ExtResource( 11 ), ExtResource( 12 )  ]
+characters = [
+ExtResource( 2 ),
+ExtResource( 3 ),
+ExtResource( 4 ), ExtResource( 5 ), ExtResource( 6 ), ExtResource( 7 ), ExtResource( 8 ), ExtResource( 9 ), ExtResource( 10 ), ExtResource( 11 ), ExtResource( 12 ), ExtResource( 13 ), ExtResource( 14 )   ]
 items = []
 weapons = [  ]
 weapons_characters = [ ]

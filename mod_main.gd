@@ -15,7 +15,9 @@ func _init(_modLoader = ModLoader):
 
 	# Add extensions
 	var extensions = [
-		"entities/units/player/player.gd"
+	"singletons/run_data.gd",
+	"entities/units/player/player.gd",
+	"ui/menus/shop/shop_item.gd"
 	]
 	for path in extensions:
 		ModLoaderMod.install_script_extension(ext_dir + path)

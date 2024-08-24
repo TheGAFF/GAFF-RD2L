@@ -16,8 +16,9 @@ func _init(_modLoader = ModLoader):
 	# Add extensions
 	var extensions = [
 	"singletons/run_data.gd",
-	"entities/units/player/player.gd",
-	"ui/menus/shop/shop_item.gd"
+	"singletons/utils.gd",
+	"ui/menus/shop/shop_item.gd",
+	"singletons/player_run_data.gd"
 	]
 	for path in extensions:
 		ModLoaderMod.install_script_extension(ext_dir + path)
@@ -26,13 +27,13 @@ func _init(_modLoader = ModLoader):
 	ModLoaderMod.add_translation(trans_dir + "RD2L_text.en.translation")
 
 func _ready():
+
 	_load_rd2l_content()
-	
 
 	#Add hit_protection custom tagged items
 	var tardigrade_data = load("res://items/all/tardigrade/tardigrade_data.tres")
 	tardigrade_data.tags.push_back("rd2l_hit_protection")
-	
+
 	#structure custom tagged items
 	var StructureTag = [
 		"res://items/all/landmines/landmines_data.tres",
@@ -64,18 +65,24 @@ func _ready():
 	for path in WaveClearTag:
 		var WaveClearTag_data = load(path)
 		WaveClearTag_data.tags.push_back("rd2l_wave_clear")
-	
+
+	#rd2l_pickup_range custom tagged items
+	var alien_tongue_data = load("res://items/all/alien_tongue/alien_tongue_data.tres")
+	alien_tongue_data.tags.push_back("rd2l_pickup_range")
+	var little_frog_data = load("res://items/all/little_frog/little_frog_data.tres")
+	little_frog_data.tags.push_back("rd2l_pickup_range")
+
 	#damage_against_bosses custom tagged items
 	var silver_bullet_data = load("res://items/all/silver_bullet/silver_bullet_data.tres")
 	silver_bullet_data.tags.push_back("rd2l_damage_against_bosses")
 	var giant_belt_data = load("res://items/all/giant_belt/giant_belt_data.tres")
 	giant_belt_data.tags.push_back("rd2l_damage_against_bosses")
-	
+
 	ModLoaderLog.info("Done", RD2L_LOG)
 
 func _load_rd2l_content():
 	ModLoaderLog.info("Loading custom content", RD2L_LOG)
-	
+
 		# Get the ContentLoader class
 	var ContentLoader = get_node("/root/ModLoader/Darkly77-ContentLoader/ContentLoader")
 

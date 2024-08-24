@@ -4,7 +4,7 @@
 
 [resource]
 script = ExtResource( 1 )
-key = "item_tractor"
+key = "item_clover"
 text_key = "effect_starting_item"
 value = 1
 custom_key = "starting_item"

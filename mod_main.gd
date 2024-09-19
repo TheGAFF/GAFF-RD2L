@@ -17,8 +17,11 @@ func _init(_modLoader = ModLoader):
 	var extensions = [
 	"singletons/run_data.gd",
 	"singletons/utils.gd",
+	 "entities/units/unit/unit.gd",
 	"ui/menus/shop/shop_item.gd",
-	"singletons/player_run_data.gd"
+	"entities/units/player/player.gd",
+	"singletons/player_run_data.gd",
+	"weapons/weapon.gd"
 	]
 	for path in extensions:
 		ModLoaderMod.install_script_extension(ext_dir + path)

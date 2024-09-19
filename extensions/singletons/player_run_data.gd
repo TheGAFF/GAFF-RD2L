@@ -1,17 +1,19 @@
 extends "res://singletons/player_run_data.gd"
 
-static func init_stats(all_null_values:bool = false)->Dictionary:
-	if Utils == null:
-		return {}
+static func init_effects()->Dictionary:
 
-	var vanilla_stats = .init_stats(all_null_values)
+	var vanilla_effects = .init_effects()
 
-	var new_stats: = {
+	var new_effects: = {
 		"attack_speed_shop": 0,
-		"testddd": 1
+		"engineering_shop": 0,
+		"armor_shop": 0,
+		"huskar_health_loss": 0,
+		"gbay_drunk": 0,
+		"temp_stats_on_attack": []
 	}
 
-	new_stats.merge(vanilla_stats)
+	new_effects.merge(vanilla_effects)
 
-	return new_stats;
+	return new_effects;
 

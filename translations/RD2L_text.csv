@@ -13,7 +13,18 @@ CHARACTER_USDANNY,USDanny
 CHARACTER_YUNGBUCK,YungBuck
 CHARACTER_INFINITY,Infinity
 CHARACTER_CELTIC,Celtic
+CHARACTER_HUSKAR,Huskar
+CHARACTER_GBAY7,GBay7
+CHARACTER_POTATOES,Potatoes
+CHARACTER_RYRK,Ryrk
+CHARACTER_LINA,Lina
 EFFECT_HARVEST_WHILE_NOT_MOVING, +{0} Harvest per second while standing still
 EFFECT_HARVEST_WHILE_MOVING, {0} Harvest per second while moving
 EFFECT_GUARANTEED_WEIRD_GHOST, Shops always sell a {1}
 EFFECT_ATTACK_SPEED_SHOP,You buy items using Attack Speed instead of materials
+EFFECT_HUSKAR_HEALTH_LOSS,You take {0} damage every time you hit an enemy
+EFFECT_GBAY_DRUNK,You are drunk
+EFFECT_ENGINEERING_SHOP,You buy items using Engineering instead of materials
+EFFECT_ARMOR_SHOP,You buy items using Armor instead of materials
+EFFECT_ON_ATTACK,You gain {0} {1} every time you attack until the end of the wave
+EFFECT_TWO_WEAPON_SLOT_LIMIT, You can only equip two weapons

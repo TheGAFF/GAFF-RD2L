@@ -18,6 +18,7 @@ CHARACTER_GBAY7,GBay7
 CHARACTER_POTATOES,Potatoes
 CHARACTER_RYRK,Ryrk
 CHARACTER_LINA,Lina
+CHARACTER_GIGGLES,Giggles{hacksON}
 EFFECT_HARVEST_WHILE_NOT_MOVING, +{0} Harvest per second while standing still
 EFFECT_HARVEST_WHILE_MOVING, {0} Harvest per second while moving
 EFFECT_GUARANTEED_WEIRD_GHOST, Shops always sell a {1}
@@ -28,3 +29,4 @@ EFFECT_ENGINEERING_SHOP,You buy items using Engineering instead of materials
 EFFECT_ARMOR_SHOP,You buy items using Armor instead of materials
 EFFECT_ON_ATTACK,You gain {0} {1} every time you attack until the end of the wave
 EFFECT_TWO_WEAPON_SLOT_LIMIT, You can only equip two weapons
+EFFECT_CONSUMABLE_DAMAGE_TAKEN_RD2L, You lose {0} {1} every time you eat a vegetable until the end of the wave.

@@ -17,17 +17,32 @@ func _init(_modLoader = ModLoader):
 	# Add extensions
 	var extensions = [
 	 "singletons/player_run_data.gd",
-	"singletons/run_data.gd",
-	#"entities/units/unit/unit.gd",
-	"ui/menus/shop/shop_item.gd",
-	"weapons/weapon.gd"
+					 "singletons/run_data.gd",
+					 "entities/units/unit/unit.gd",
+					 "ui/menus/shop/coop_shop.gd",
+					 "ui/menus/shop/shop_item.gd",
+					 "ui/menus/shop/base_shop.gd",
+					 "weapons/weapon.gd",
+					 "entities/units/player/player.gd"
 	]
 
 	for path in extensions:
 		ModLoaderMod.install_script_extension(ext_dir + path)
 
 	# Add translations
+	#ModLoaderMod.add_translation(trans_dir + "RD2L_text.de.translation")
 	ModLoaderMod.add_translation(trans_dir + "RD2L_text.en.translation")
+	#ModLoaderMod.add_translation(trans_dir + "RD2L_text.es.translation")
+	#ModLoaderMod.add_translation(trans_dir + "RD2L_text.fr.translation")
+	#ModLoaderMod.add_translation(trans_dir + "RD2L_text.it.translation")
+	#ModLoaderMod.add_translation(trans_dir + "RD2L_text.ja.translation")
+	#ModLoaderMod.add_translation(trans_dir + "RD2L_text.ko.translation")
+	#ModLoaderMod.add_translation(trans_dir + "RD2L_text.pl.translation")
+	#ModLoaderMod.add_translation(trans_dir + "RD2L_text.pt.translation")
+	#ModLoaderMod.add_translation(trans_dir + "RD2L_text.ru.translation")
+	#ModLoaderMod.add_translation(trans_dir + "RD2L_text.tr.translation")
+	#ModLoaderMod.add_translation(trans_dir + "RD2L_text.zh.translation")
+	#ModLoaderMod.add_translation(trans_dir + "RD2L_text.zh_TW.translation")
 
 	ModLoaderLog.info("Init Finish", RD2L_LOG)
 
@@ -35,15 +50,6 @@ func _ready():
 
 	dir = ModLoaderMod.get_unpacked_dir() + RD2L_MOD_DIR
 	ext_dir = dir + "extensions/"
-
-	# Add extensions
-	var extensions = [
-	#"entities/units/unit/unit.gd",
-	"entities/units/player/player.gd",
-	]
-
-	for path in extensions:
-		ModLoaderMod.install_script_extension(ext_dir + path)
 
 	ModLoaderLog.info("Ready Start", RD2L_LOG)
 

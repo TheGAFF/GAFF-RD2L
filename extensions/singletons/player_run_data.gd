@@ -12,7 +12,8 @@ static func init_effects()->Dictionary:
 			"huskar_health_loss": 0,
 			"gbay_drunk": 0,
 			"consumable_damage_taken_rd2l": [],
-			"temp_stats_on_attack": []
+			"temp_stats_on_attack": [],
+			"ogre_magi_duplicate_item": 0
 		}
 
 		new_effects.merge(vanilla_effects)

@@ -4,10 +4,10 @@
 
 [resource]
 script = ExtResource( 1 )
-key = "stat_dodge"
-text_key = ""
-value = -100
+key = "ogre_magi_duplicate_item"
+text_key = "EFFECT_OGRE_MAGI_DUPLICATE_ITEM"
+value = 1
 custom_key = ""
-storage_method = 0
-effect_sign = 3
+storage_method = 2
+effect_sign = 0
 custom_args = [  ]

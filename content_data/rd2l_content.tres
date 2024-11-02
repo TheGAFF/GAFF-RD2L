@@ -19,6 +19,8 @@
 [ext_resource path="res://mods-unpacked/GAFF-RD2L/content/characters/ryrk/ryrk_data.tres" type="Resource" id=19]
 [ext_resource path="res://mods-unpacked/GAFF-RD2L/content/characters/lina/lina_data.tres" type="Resource" id=20]
 [ext_resource path="res://mods-unpacked/GAFF-RD2L/content/characters/giggles/giggles_data.tres" type="Resource" id=21]
+[ext_resource path="res://mods-unpacked/GAFF-RD2L/content/characters/huskar/huskar_data.tres" type="Resource" id=22]
+[ext_resource path="res://mods-unpacked/GAFF-RD2L/content/characters/ogremagi/ogremagi_data.tres" type="Resource" id=23]
 [resource]
 script = ExtResource( 1 )
 characters = [
@@ -40,7 +42,9 @@ ExtResource( 17 ),
 ExtResource( 18 ),
 ExtResource( 19 ),
 ExtResource( 20 ),
-ExtResource( 21 )
+ExtResource( 21 ),
+ExtResource( 22 ),
+ExtResource( 23 )
 ]
 items = []
 weapons = [  ]

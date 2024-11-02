@@ -11,11 +11,19 @@ func handle_gold_stat(effect_key:String)->void :
 			RunData.add_stat("stat_harvesting", temp_stat[1], player_index)
 
 
-func on_consumable_picked_up(consumable_data:ConsumableData)->void :
-	.on_consumable_picked_up(consumable_data)
-	var consumable_damage_taken_rd2l = RunData.get_player_effect("consumable_damage_taken_rd2l", player_index)
+func  _on_ItemAttractArea_area_entered(item:Item)->void :
 
-	if consumable_damage_taken_rd2l.size() > 0 and _invincibility_timer.is_stopped():
-		TempStats.add_stat(consumable_damage_taken_rd2l[0][0], consumable_damage_taken_rd2l[0][1] * -1, player_index)
-		RunData.emit_signal("damage_effect", 0, player_index)
+	if RunData.get_player_character(player_index).my_id == "character_rd2l_giggles":
+		var is_heal: = item is Consumable
+		var is_gold: = not item is Consumable
+		var should_attract_item: = (is_heal and current_stats.health < max_stats.health) or is_gold
+		if not should_attract_item:
+			return
+		var item_already_attracted_by_player: = item.attracted_by != null
+		if should_attract_item and not item_already_attracted_by_player:
+			item.attracted_by = self
+		if is_gold and global_position.distance_squared_to(item.global_position) < global_position.distance_squared_to(item.attracted_by.global_position):
+			item.attracted_by = self
+	else:
+		._on_ItemAttractArea_area_entered(item)
 

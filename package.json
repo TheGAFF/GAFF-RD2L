@@ -1,0 +1,26 @@
+{
+  "name": "gaff-rd2l",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-zip": "ts-node build-zip.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheGAFF/GAFF-RD2L.git"
+  },
+  "author": "John Gafford",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TheGAFF/GAFF-RD2L/issues"
+  },
+  "homepage": "https://github.com/TheGAFF/GAFF-RD2L#readme",
+  "devDependencies": {
+    "@types/archiver": "6.0.3",
+    "@types/node": "22.8.6",
+    "archiver": "7.0.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}

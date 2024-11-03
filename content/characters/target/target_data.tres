@@ -22,8 +22,6 @@
 [ext_resource path="res://weapons/ranged/ghost_scepter/1/ghost_scepter_data.tres" type="Resource" id=26]
 [ext_resource path="res://weapons/ranged/slingshot/1/slingshot_data.tres" type="Resource" id=27]
 [ext_resource path="res://weapons/ranged/icicle/1/icicle_data.tres" type="Resource" id=28]
-[ext_resource path="res://dlcs/dlc_1/weapons/ranged/javelin/1/javelin_data.tres" type="Resource" id=29]
-[ext_resource path="res://dlcs/dlc_1/weapons/ranged/flute/1/flute_data.tres" type="Resource" id=30]
 
 [resource]
 script = ExtResource( 1 )
@@ -39,4 +37,4 @@ max_nb = -1
 item_appearances = [ ExtResource( 3 ), ExtResource( 4 ) ]
 tags = [  ]
 wanted_tags = [ ]
-starting_weapons = [ ExtResource( 20 ), ExtResource( 21 ), ExtResource( 22 ), ExtResource( 23 ), ExtResource( 24 ), ExtResource( 25 ), ExtResource( 26 ), ExtResource( 27 ), ExtResource( 28 ) , ExtResource( 29 ), ExtResource( 30 )    ]
+starting_weapons = [ ExtResource( 20 ), ExtResource( 21 ), ExtResource( 22 ), ExtResource( 23 ), ExtResource( 24 ), ExtResource( 25 ), ExtResource( 26 ), ExtResource( 27 ), ExtResource( 28 )    ]

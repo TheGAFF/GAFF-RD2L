@@ -38,7 +38,8 @@ const includedPaths = [
     'translations',
     'LICENSE',
     'manifest.json',
-    'mod_main.gd'
+    'mod_main.gd',
+    'mod_init.gd'
 ];
 
 includedPaths.forEach(item => {

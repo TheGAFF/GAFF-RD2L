@@ -1,4 +1,4 @@
-[gd_resource type="Resource" load_steps=34 format=2]
+[gd_resource type="Resource" load_steps=31 format=2]
 
 [ext_resource path="res://items/characters/character_data.gd" type="Script" id=1]
 [ext_resource path="res://mods-unpacked/GAFF-RD2L/content/characters/celtic/rd2l_celtic_icon.png" type="Texture" id=2]
@@ -30,6 +30,7 @@
 [ext_resource path="res://weapons/melee/ghost_axe/1/ghost_axe_data.tres" type="Resource" id=35]
 [ext_resource path="res://weapons/ranged/ghost_scepter/1/ghost_scepter_data.tres" type="Resource" id=36]
 [ext_resource path="res://weapons/ranged/icicle/1/icicle_data.tres" type="Resource" id=37]
+
 
 [resource]
 script = ExtResource( 1 )

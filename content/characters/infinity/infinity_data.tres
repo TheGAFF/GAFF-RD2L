@@ -26,6 +26,7 @@
 [ext_resource path="res://weapons/melee/ghost_flint/1/ghost_flint_data.tres" type="Resource" id=33]
 [ext_resource path="res://weapons/melee/ghost_axe/1/ghost_axe_data.tres" type="Resource" id=34]
 [ext_resource path="res://weapons/ranged/ghost_scepter/1/ghost_scepter_data.tres" type="Resource" id=35]
+[ext_resource path="res://weapons/ranged/icicle/1/icicle_data.tres" type="Resource" id=36]
 
 [resource]
 script = ExtResource( 1 )
@@ -42,4 +43,4 @@ item_appearances = [ ExtResource( 3 ) ]
 tags = [  ]
 wanted_tags = [ "rd2l_wave_clear" ]
 starting_weapons = [ ExtResource( 20 ), ExtResource( 21 ),
-ExtResource( 22 ), ExtResource( 23 ), ExtResource( 24 ), ExtResource( 25 ), ExtResource( 26 ), ExtResource( 27 ), ExtResource( 28 ), ExtResource( 29 ), ExtResource( 30 ), ExtResource( 31 ), ExtResource( 32 ), ExtResource( 33 ), ExtResource( 34 ), ExtResource( 35 )  ]
+ExtResource( 22 ), ExtResource( 23 ), ExtResource( 24 ), ExtResource( 25 ), ExtResource( 26 ), ExtResource( 27 ), ExtResource( 28 ), ExtResource( 29 ), ExtResource( 30 ), ExtResource( 31 ), ExtResource( 32 ), ExtResource( 33 ), ExtResource( 34 ), ExtResource( 35 ), ExtResource( 36 )  ]

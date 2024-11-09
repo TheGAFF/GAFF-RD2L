@@ -1,35 +1,37 @@
-keys,en
-CHARACTER_FATSLOTH,Fatsloth
-CHARACTER_YERBAD,Yerbad
-CHARACTER_JBAY7,JBay7
-CHARACTER_VVODLE,vvodle
-CHARACTER_ZAMO,Zamo
-CHARACTER_TREEBEARD,Treebeard
-CHARACTER_THEPASSIVEFARMER,The Passive Farmer
-CHARACTER_CLARE,Clare
-CHARACTER_RD2LGHOST,♀Ghost♀
-CHARACTER_TARGET,Target
-CHARACTER_USDANNY,USDanny
-CHARACTER_YUNGBUCK,YungBuck
-CHARACTER_INFINITY,Infinity
-CHARACTER_CELTIC,Celtic
-CHARACTER_HUSKAR,Huskar
-CHARACTER_GBAY7,GBay7
-CHARACTER_POTATOES,Potatoes
-CHARACTER_RYRK,Ryrk
-CHARACTER_LINA,Lina
-CHARACTER_GIGGLES,Giggles{hacksON}
-CHARACTER_OGREMAGI,Ogre Magi
-EFFECT_HARVEST_WHILE_NOT_MOVING, +{0} Harvest per second while standing still
-EFFECT_HARVEST_WHILE_MOVING, {0} Harvest per second while moving
-EFFECT_GUARANTEED_WEIRD_GHOST, Shops always sell a {1}
-EFFECT_ATTACK_SPEED_SHOP,You buy items using Attack Speed instead of materials
-EFFECT_HUSKAR_HEALTH_LOSS,You take {0} damage every time you hit an enemy
-EFFECT_GBAY_DRUNK,You are drunk
-EFFECT_ENGINEERING_SHOP,You buy items using Engineering instead of materials
-EFFECT_ARMOR_SHOP,You buy items using Armor instead of materials
-EFFECT_ON_ATTACK,You gain {0} {1} every time you attack until the end of the wave
-EFFECT_TWO_WEAPON_SLOT_LIMIT, You can only equip two weapons
-EFFECT_RD2L_POISONED_FRUIT, All fruit are poisonous
-EFFECT_CONSUMABLE_DAMAGE_TAKEN_RD2L, Fruit deal {0} increased damage
-EFFECT_OGRE_MAGI_DUPLICATE_ITEM,Every item you buy is duplicated
+keys,en,fr,zh,ru,de
+CHARACTER_FATSLOTH,Fatsloth,Fatsloth,胖树懒,Фетслот,Fatsloth
+CHARACTER_YERBAD,Yerbad,Yerbad,耶巴德,Йербад,Yerbad
+CHARACTER_JBAY7,JBay7,JBay7,JBay7,ДжейБэй7,JBay7
+CHARACTER_VVODLE,vvodle,vvodle,vvodle,вводле,vvodle
+CHARACTER_ZAMO,Zamo,Zamo,Zamo,Замо,Zamo
+CHARACTER_TREEBEARD,Treebeard,"Barbe d'Arbre",树须,Требиард,Baumbart
+CHARACTER_THEPASSIVEFARMER,The Passive Farmer,"Le Fermier Passif",被动农夫,Пассивный Фермер,"Der Passive Bauer"
+CHARACTER_CLARE,Clare,Clare,克莱尔,Клэр,Clare
+CHARACTER_RD2LGHOST,"♀Ghost♀","♀Fantôme♀","♀幽灵♀","♀Призрак♀","♀Geist♀"
+CHARACTER_TARGET,Target,Cible,目标,Цель,Ziel
+CHARACTER_USDANNY,USDanny,USDanny,美金丹尼,УСДэнни,USDanny
+CHARACTER_YUNGBUCK,YungBuck,YungBuck,洋巴克,ЯнгБак,YungBuck
+CHARACTER_INFINITY,Infinity,Infini,无限,Бесконечность,Unendlichkeit
+CHARACTER_CELTIC,Celtic,Celtique,凯尔特人,Кельт,Keltisch
+CHARACTER_HUSKAR,Huskar,Huskar,哈斯卡,Хускар,Huskar
+CHARACTER_GBAY7,GBay7,GBay7,GBay7,ГБэй7,GBay7
+CHARACTER_POTATOES,Potatoes,"Les Patates",土豆们,Картофели,"Die Kartoffeln"
+CHARACTER_RYRK,Ryrk,Ryrk,瑞尔克,Рырк,Ryrk
+CHARACTER_LINA,Lina,Lina,莉娜,Лина,Lina
+CHARACTER_GIGGLES,"Giggles{hacksON}","Ricanements{hacksON}","窃笑{hacksON}","Хихиканье{hacksON}","Kichern{hacksON}"
+CHARACTER_OGREMAGI,"Ogre Magi","Ogre Magi",食人魔法师,"Огр Маг","Oger Magier"
+CHARACTER_RD2L_BEAR,Bear,Ours,熊,Медведь,Bär
+EFFECT_HARVEST_WHILE_NOT_MOVING,"+{0} Harvest per second while standing still","+{0} Récolte par seconde en restant immobile","站立不动时每秒获得+{0}收获","+{0} Урожая в секунду при стоянии на месте","+{0} Ernte pro Sekunde im Stillstand"
+EFFECT_HARVEST_WHILE_MOVING,"{0} Harvest per second while moving","{0} Récolte par seconde en mouvement","移动时每秒获得{0}收获","{0} Урожая в секунду в движении","{0} Ernte pro Sekunde in Bewegung"
+EFFECT_GUARANTEED_WEIRD_GHOST,"Shops always sell a {1}","Les boutiques vendent toujours un {1}","商店总是出售一个{1}","Магазины всегда продают {1}","Geschäfte verkaufen immer ein {1}"
+EFFECT_ATTACK_SPEED_SHOP,"You buy items using Attack Speed instead of materials","Vous achetez des objets avec la Vitesse d'Attaque au lieu des matériaux","你用攻击速度代替材料购买物品","Вы покупаете предметы за Скорость Атаки вместо материалов","Sie kaufen Gegenstände mit Angriffsgeschwindigkeit anstelle von Materialien"
+EFFECT_HUSKAR_HEALTH_LOSS,"You take {0} damage every time you hit an enemy","Vous subissez {0} dégâts chaque fois que vous frappez un ennemi","每次你击中敌人时受到{0}伤害","Вы получаете {0} урона каждый раз при попадании по врагу","Du nimmst {0} Schaden jedes Mal, wenn du einen Gegner triffst"
+EFFECT_GBAY_DRUNK,"You are drunk","Vous êtes ivre","你醉了","Ты пьян","Du bist betrunken"
+EFFECT_ENGINEERING_SHOP,"You buy items using Engineering instead of materials","Vous achetez des objets avec l'Ingénierie au lieu des matériaux","你用工程学代替材料购买物品","Вы покупаете предметы за Инженерию вместо материалов","Sie kaufen Gegenstände mit Ingenieurwesen anstelle von Materialien"
+EFFECT_ARMOR_SHOP,"You buy items using Armor instead of materials","Vous achetez des objets avec l'Armure au lieu des matériaux","你用护甲代替材料购买物品","Вы покупаете предметы за Броню вместо материалов","Sie kaufen Gegenstände mit Rüstung anstelle von Materialien"
+EFFECT_ON_ATTACK,"You gain {0} {1} every time you attack until the end of the wave","Vous gagnez {0} {1} chaque fois que vous attaquez jusqu'à la fin de la vague","每次攻击获得{0}{1}，直到波次结束","Вы получаете {0} {1} каждый раз при атаке до конца волны","Du erhältst {0} {1} jedes Mal, wenn du angreifst, bis zum Ende der Welle"
+EFFECT_TWO_WEAPON_SLOT_LIMIT,"You can only equip two weapons","Vous ne pouvez équiper que deux armes","你只能装备两件武器","Вы можете экипировать только два оружия","Du kannst nur zwei Waffen ausrüsten"
+EFFECT_RD2L_POISONED_FRUIT,"All fruit are poisonous","Tous les fruits sont empoisonnés","所有水果都是有毒的","Все фрукты ядовиты","Alle Früchte sind giftig"
+EFFECT_CONSUMABLE_DAMAGE_TAKEN_RD2L,"Fruit deal {0} increased damage","Les fruits infligent {0} dégâts supplémentaires","水果造成{0}额外伤害","Фрукты наносят {0} дополнительного урона","Früchte verursachen {0} zusätzlichen Schaden"
+EFFECT_OGRE_MAGI_DUPLICATE_ITEM,"Every item you buy is duplicated","Chaque objet que vous achetez est dupliqué","你买的每件物品都会被复制","Каждый купленный вами предмет дублируется","Jeder gekaufte Gegenstand wird dupliziert"
+EFFECT_BEAR_REPEAT_ITEM,"The last non-limited item you purchased is available again on next re-roll","Le dernier objet non limité que vous avez acheté est à nouveau disponible lors du prochain relancement","你购买的最后一件非限量物品将在下次重新滚动时再次可用","Последний купленный вами предмет без ограничений будет снова доступен при следующем перезапуске","Der letzte gekaufte nicht limitierte Gegenstand ist beim nächsten Neu-Würfeln erneut verfügbar"

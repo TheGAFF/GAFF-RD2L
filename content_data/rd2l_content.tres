@@ -1,5 +1,5 @@
 [gd_resource type="Resource" load_steps=56 format=2]
-[ext_resource path="res://mods-unpacked/Darkly77-ContentLoader/content_data.gd" type="Script" id=1]
+[ext_resource path="res://mods-unpacked/GAFF-RD2L/mod_init.gd" type="Script" id=1]
 [ext_resource path="res://mods-unpacked/GAFF-RD2L/content/characters/yerbad/yerbad_data.tres" type="Resource" id=2]
 [ext_resource path="res://mods-unpacked/GAFF-RD2L/content/characters/fatsloth/fatsloth_data.tres" type="Resource" id=3]
 [ext_resource path="res://mods-unpacked/GAFF-RD2L/content/characters/vvodle/vvodle_data.tres" type="Resource" id=4]
@@ -21,6 +21,7 @@
 [ext_resource path="res://mods-unpacked/GAFF-RD2L/content/characters/giggles/giggles_data.tres" type="Resource" id=21]
 [ext_resource path="res://mods-unpacked/GAFF-RD2L/content/characters/huskar/huskar_data.tres" type="Resource" id=22]
 [ext_resource path="res://mods-unpacked/GAFF-RD2L/content/characters/ogremagi/ogremagi_data.tres" type="Resource" id=23]
+[ext_resource path="res://mods-unpacked/GAFF-RD2L/content/characters/bear/bear_data.tres" type="Resource" id=24]
 [resource]
 script = ExtResource( 1 )
 characters = [
@@ -44,7 +45,8 @@ ExtResource( 19 ),
 ExtResource( 20 ),
 ExtResource( 21 ),
 ExtResource( 22 ),
-ExtResource( 23 )
+ExtResource( 23 ),
+ExtResource( 24 )
 ]
 items = []
 weapons = [  ]

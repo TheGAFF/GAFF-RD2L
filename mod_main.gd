@@ -8,25 +8,52 @@ var ext_dir = ""
 var trans_dir = ""
 
 func _init(_modLoader = ModLoader):
-	ModLoaderLog.info("Init", RD2L_LOG)
+	ModLoaderLog.info("Init Start", RD2L_LOG)
+
 	dir = ModLoaderMod.get_unpacked_dir() + RD2L_MOD_DIR
 	ext_dir = dir + "extensions/"
 	trans_dir = dir + "translations/"
 
 	# Add extensions
 	var extensions = [
-	"singletons/run_data.gd",
-	"singletons/utils.gd",
-	"ui/menus/shop/shop_item.gd",
-	"singletons/player_run_data.gd"
+		"singletons/player_run_data.gd",
+		"singletons/run_data.gd",
+		"entities/units/unit/unit.gd",
+		"ui/menus/shop/coop_shop.gd",
+		"ui/menus/shop/shop_item.gd",
+		"ui/menus/shop/base_shop.gd",
+		#"weapons/weapon.gd",
+		"entities/units/player/player.gd",
+		"singletons/progress_data.gd",
+		"singletons/item_service.gd"
 	]
+
 	for path in extensions:
 		ModLoaderMod.install_script_extension(ext_dir + path)
 
 	# Add translations
+	ModLoaderMod.add_translation(trans_dir + "RD2L_text.de.translation")
 	ModLoaderMod.add_translation(trans_dir + "RD2L_text.en.translation")
+	#ModLoaderMod.add_translation(trans_dir + "RD2L_text.es.translation")
+	ModLoaderMod.add_translation(trans_dir + "RD2L_text.fr.translation")
+	#ModLoaderMod.add_translation(trans_dir + "RD2L_text.it.translation")
+	#ModLoaderMod.add_translation(trans_dir + "RD2L_text.ja.translation")
+	#ModLoaderMod.add_translation(trans_dir + "RD2L_text.ko.translation")
+	#ModLoaderMod.add_translation(trans_dir + "RD2L_text.pl.translation")
+	#ModLoaderMod.add_translation(trans_dir + "RD2L_text.pt.translation")
+	ModLoaderMod.add_translation(trans_dir + "RD2L_text.ru.translation")
+	#ModLoaderMod.add_translation(trans_dir + "RD2L_text.tr.translation")
+	ModLoaderMod.add_translation(trans_dir + "RD2L_text.zh.translation")
+	#ModLoaderMod.add_translation(trans_dir + "RD2L_text.zh_TW.translation")
+
+	ModLoaderLog.info("RD2L Init Finish", RD2L_LOG)
 
 func _ready():
+
+	dir = ModLoaderMod.get_unpacked_dir() + RD2L_MOD_DIR
+	ext_dir = dir + "extensions/"
+
+	ModLoaderLog.info("Ready Start", RD2L_LOG)
 
 	_load_rd2l_content()
 
@@ -59,8 +86,7 @@ func _ready():
 		"res://items/all/community_support/community_support_data.tres",
 		"res://items/all/cyberball/cyberball_data.tres",
 		"res://items/all/pumpkin/pumpkin_data.tres",
-		"res://items/all/ricochet/ricochet_data.tres",
-		"res://items/all/rip_and_tear/rip_and_tear_data.tres",
+		"res://items/all/ricochet/ricochet_data.tres"
 		]
 	for path in WaveClearTag:
 		var WaveClearTag_data = load(path)
@@ -78,16 +104,14 @@ func _ready():
 	var giant_belt_data = load("res://items/all/giant_belt/giant_belt_data.tres")
 	giant_belt_data.tags.push_back("rd2l_damage_against_bosses")
 
-	ModLoaderLog.info("Done", RD2L_LOG)
+	ModLoaderLog.info("Ready Finish", RD2L_LOG)
 
 func _load_rd2l_content():
-	ModLoaderLog.info("Loading custom content", RD2L_LOG)
 
-		# Get the ContentLoader class
-	var ContentLoader = get_node("/root/ModLoader/Darkly77-ContentLoader/ContentLoader")
+	ModLoaderLog.info("Load RD2L Content Start", RD2L_LOG)
 
-	var content_dir = "res://mods-unpacked/GAFF-RD2L/content_data/"
-	var mod_log = "GAFF-RD2L"
+	var mod_data = load("res://mods-unpacked/GAFF-RD2L/content_data/rd2l_content.tres")
 
-	# Add content. These .tres files are ContentData resources
-	ContentLoader.load_data(content_dir + "rd2l_content.tres", mod_log)
+	ProgressData._append_without_duplicates(ItemService.characters, mod_data.characters)
+
+	ModLoaderLog.info("Load RD2L Content Finish", RD2L_LOG)

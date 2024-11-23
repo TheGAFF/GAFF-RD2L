@@ -1,0 +1,13 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://items/global/effect.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+key = "bear_repeat_item"
+text_key = "EFFECT_BEAR_REPEAT_ITEM"
+value = 1
+custom_key = "rd2l_last_item_purchased"
+storage_method = 3
+effect_sign = 3
+custom_args = [  ]

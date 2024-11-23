@@ -16,6 +16,6 @@ key = "item_weird_ghost"
 text_key = "EFFECT_GUARANTEED_WEIRD_GHOST"
 value = 1
 custom_key = "guaranteed_shop_items"
-storage_method = 0
+storage_method = 1
 effect_sign = 0
 custom_args = [ SubResource( 1 ) ]

@@ -1,11 +1,12 @@
 [gd_resource type="Resource" load_steps=56 format=2]
-[ext_resource path="res://mods-unpacked/Darkly77-ContentLoader/content_data.gd" type="Script" id=1]
+[ext_resource path="res://mods-unpacked/GAFF-RD2L/mod_init.gd" type="Script" id=1]
 [ext_resource path="res://mods-unpacked/GAFF-RD2L/content/characters/yerbad/yerbad_data.tres" type="Resource" id=2]
 [ext_resource path="res://mods-unpacked/GAFF-RD2L/content/characters/fatsloth/fatsloth_data.tres" type="Resource" id=3]
 [ext_resource path="res://mods-unpacked/GAFF-RD2L/content/characters/vvodle/vvodle_data.tres" type="Resource" id=4]
 [ext_resource path="res://mods-unpacked/GAFF-RD2L/content/characters/zamo/zamo_data.tres" type="Resource" id=5]
 [ext_resource path="res://mods-unpacked/GAFF-RD2L/content/characters/jbay7/jbay7_data.tres" type="Resource" id=6]
 [ext_resource path="res://mods-unpacked/GAFF-RD2L/content/characters/treebeard/treebeard_data.tres" type="Resource" id=7]
+[ext_resource path="res://mods-unpacked/GAFF-RD2L/content/characters/thepassivefarmer/thepassivefarmer_data.tres" type="Resource" id=8]
 [ext_resource path="res://mods-unpacked/GAFF-RD2L/content/characters/clare/clare_data.tres" type="Resource" id=9]
 [ext_resource path="res://mods-unpacked/GAFF-RD2L/content/characters/ghost/ghost_data.tres" type="Resource" id=10]
 [ext_resource path="res://mods-unpacked/GAFF-RD2L/content/characters/target/target_data.tres" type="Resource" id=11]
@@ -13,13 +14,40 @@
 [ext_resource path="res://mods-unpacked/GAFF-RD2L/content/characters/yungbuck/yungbuck_data.tres" type="Resource" id=13]
 [ext_resource path="res://mods-unpacked/GAFF-RD2L/content/characters/infinity/infinity_data.tres" type="Resource" id=14]
 [ext_resource path="res://mods-unpacked/GAFF-RD2L/content/characters/celtic/celtic_data.tres" type="Resource" id=15]
-
+[ext_resource path="res://mods-unpacked/GAFF-RD2L/content/characters/gbay7/gbay7_data.tres" type="Resource" id=17]
+[ext_resource path="res://mods-unpacked/GAFF-RD2L/content/characters/potatoes/potatoes_data.tres" type="Resource" id=18]
+[ext_resource path="res://mods-unpacked/GAFF-RD2L/content/characters/ryrk/ryrk_data.tres" type="Resource" id=19]
+[ext_resource path="res://mods-unpacked/GAFF-RD2L/content/characters/lina/lina_data.tres" type="Resource" id=20]
+[ext_resource path="res://mods-unpacked/GAFF-RD2L/content/characters/giggles/giggles_data.tres" type="Resource" id=21]
+[ext_resource path="res://mods-unpacked/GAFF-RD2L/content/characters/huskar/huskar_data.tres" type="Resource" id=22]
+[ext_resource path="res://mods-unpacked/GAFF-RD2L/content/characters/ogremagi/ogremagi_data.tres" type="Resource" id=23]
+[ext_resource path="res://mods-unpacked/GAFF-RD2L/content/characters/bear/bear_data.tres" type="Resource" id=24]
 [resource]
 script = ExtResource( 1 )
 characters = [
 ExtResource( 2 ),
 ExtResource( 3 ),
-ExtResource( 4 ), ExtResource( 5 ), ExtResource( 6 ), ExtResource( 7 ),  ExtResource( 9 ), ExtResource( 10 ), ExtResource( 11 ), ExtResource( 12 ), ExtResource( 13 ), ExtResource( 14 ), ExtResource( 15 )   ]
+ExtResource( 4 ),
+ExtResource( 5 ),
+ExtResource( 6 ),
+ExtResource( 7 ),
+ExtResource( 8 ),
+ExtResource( 9 ),
+ExtResource( 10 ),
+ExtResource( 11 ),
+ExtResource( 12 ),
+ExtResource( 13 ),
+ExtResource( 14 ),
+ExtResource( 15 ),
+ExtResource( 17 ),
+ExtResource( 18 ),
+ExtResource( 19 ),
+ExtResource( 20 ),
+ExtResource( 21 ),
+ExtResource( 22 ),
+ExtResource( 23 ),
+ExtResource( 24 )
+]
 items = []
 weapons = [  ]
 weapons_characters = [ ]
